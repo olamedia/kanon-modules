@@ -1,0 +1,187 @@
+@CHARSET=UTF-8
+/* -------------------------------------------------------------- 
+ *   typography.css
+ *-------------------------------------------------------------- */
+body {
+	font: 12px/18px verdana, arial, helvetica, clean, sans-serif;
+	/* 13px/18px based grid */
+	color: #222;
+	background: #fff;
+	vertical-align: text-top;
+	/*background: url(images/grid7x18.png);*/
+}
+td,th{
+	/*font: 13px/18px arial, helvetica, clean, sans-serif; /* inherited not working for ie6 0_o */
+}
+
+h1,.h1{
+	font-family: 'Trebuchet MS', Tahoma, Verdana, Arial, Helvetica, sans-serif;
+}
+
+/* Headings
+-------------------------------------------------------------- */
+h1,.h1,h2,.h2,h3,.h3,h4,.h4,h5,.h5,h6,.h6 {
+	font-weight: bold;
+	color: #111;
+}
+
+h1,.h1 { /* 24/18 */
+	font-size: 24px;
+	line-height: 48px;
+	font-weight: normal;
+}
+
+h2,.h2 { /* 18/18 */
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: normal;
+}
+
+h3,.h3 { /* 17/18 */
+	font-size: 17px;
+	line-height: 18px;
+	font-weight: normal;
+}
+
+/* h4-h6 not recommended to use */
+h4 { /* 16/18 */
+	font-size: 14.5px;
+	line-height: 18px;
+}
+
+h5 { /* 14/18 */
+	font-size: 14px;
+	line-height: 18px;
+}
+
+h6 { /* 13/18 */
+	font-size: 13px;
+	line-height: 18px;
+}
+
+h1 img,h2 img,h3 img,h4 img,h5 img,h6 img {
+	margin: 0;
+}
+
+/* Text elements
+-------------------------------------------------------------- */
+p {
+	font-size: 1em; /* 12px/18px */
+	margin-bottom: 1.5em; /* 18px */
+}
+
+a:focus,a:hover {
+	color: #000;
+}
+
+a {
+	color: #009;
+	text-decoration: underline;
+}
+
+blockquote {
+	margin: 1.5em;
+	color: #666;
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+em,dfn {
+	font-style: italic;
+}
+
+dfn {
+	font-weight: bold;
+}
+
+sup,sub {
+	line-height: 0;
+}
+
+address {
+	margin: 0 0 1.5em;
+	font-style: italic;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+abbr,acronym {
+	border-bottom: 1px dotted #000;
+	cursor: help;
+}
+
+pre {
+	margin: 1.5em 0;
+	white-space: pre;
+}
+
+pre,code,tt {
+	font: 1em 'andale mono', 'lucida console', monospace;
+	line-height: 1.5;
+}
+
+/* Lists
+-------------------------------------------------------------- */
+.content li ul,.content li ol {
+	margin: 0 1.5em;
+}
+
+.content ul,ol {
+	margin: 0 1.5em 1.5em 1.5em;
+}
+
+.content ul {
+	list-style-type: disc;
+}
+
+.content ol {
+	list-style-type: decimal;
+}
+
+.content dl {
+	margin: 0 0 1.5em 0;
+}
+
+.content dl dt {
+	font-weight: bold;
+}
+
+.content dd {
+	margin-left: 1.5em;
+}
+
+/* Tables
+-------------------------------------------------------------- */
+.content table {
+	margin-bottom: 1.4em;
+	width: 100%;
+}
+
+.content th {
+	font-weight: bold;
+}
+
+.content thead th {
+	background: #c3d9ff;
+}
+
+.content th,.content td,.content caption {
+	padding: 4px 10px 4px 5px;
+}
+
+.content tr.even td {
+	background: #e5ecf9;
+}
+
+.content tfoot {
+	font-style: italic;
+}
+
+.content caption {
+	background: #eee;
+}

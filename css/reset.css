@@ -1,0 +1,111 @@
+@CHARSET "UTF-8";
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td
+	{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-family: inherit;
+	font-size: inherit;
+	font-weight: inherit;
+	/*vertical-align: inherit;*/
+	background: transparent;
+	color: inherit;
+	text-decoration: none;
+	/*line-height: inherit;*/
+	zoom: 1;
+}
+input{
+	margin: 0;
+	vertical-align: middle;
+}
+html, body{
+	height: 100%;
+}
+td {
+	vertical-align: top;
+}
+
+a img,:link img,:visited img {
+	border: 0;
+}
+
+html,body {
+	height: 100%;
+}
+
+body { /* Enable good japanese fonts (Meyryo), taken from ani.tv */
+	font-family: Verdana, Arial, Meiryo, "MS P????", "MS PGothic", "??????Pro W3",
+		"Hiragino Kaku Gothic Pro", Osaka, "????", Helvetica, sans-serif
+		;
+		// Helvetica has broken cyrillic :/
+	font-size: 12px; 
+	/*,"MS P????","MS PGothic","??????Pro W3","Hiragino Kaku Gothic Pro",Verdana,Osaka*/
+	/*font-family: "????",Meiryo,"MS P????","MS PGothic","??????Pro W3","Hiragino Kaku Gothic Pro",Verdana,Osaka,sans-serif;*/
+	line-height: 1.3;
+	background: #fff;
+	color: #000;
+	font-size: small; *
+	font: x-small;
+}
+
+ol,ul {
+	list-style: none;
+	list-style-position: outside;
+	text-indent: 0px;
+}
+
+blockquote,q {
+	quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+	outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+	text-decoration: none;
+}
+
+del {
+	text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+*+html img {
+	-ms-interpolation-mode: bicubic;
+}
+
+/* Extending - minimal defaults */
+abbr {
+	speak: spell-out;
+	cursor: help;
+	border-bottom: dotted 1px #090;
+}
+
+acronym {
+	speak: spell-out;
+	cursor: help;
+	border-bottom: dashed 1px #390;
+	background: #FF9;
+}
+
+.t-helper-clearfix:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
+.t-helper-clearfix { display: inline-block; }
+/* required comment for clearfix to work in Opera \*/
+* html .t-helper-clearfix { height:1%; }
+.t-helper-clearfix { display:block; }
+/* end clearfix */
